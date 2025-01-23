@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>WPAP</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+        <!--Navigation-->
+        <div id="nav"></div>
+        <script>
+        fetch('navigation.html')
+            .then(response => response.text())
+            .then(html => {
+            document.getElementById('nav').innerHTML = html;
+            })
+            .catch(error => console.error('Error loading navigation.html:', error));
+        </script>
+        <!--end Navigation -->
+		
+		<div id="header">
+			<h1>Lorem Ipsum</h1>
+			<hr color="white" width="40% auto">
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</div>
+		
+		<div id="container">
+			<div class="content1">
+				<h2><a href="display.html">Text 1</a></h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+			
+			<div class="content2">
+				<h2>Text 2</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+		
+        <!--footer-->
+        <!-- <div id="foot"></div>
+        <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(html => {
+            document.getElementById('foot').innerHTML = html;
+            })
+            .catch(error => console.error('Error loading footer.html:', error));
+        </script> -->
+        <!--end footer-->
+		
+	</body>
+</html>
