@@ -1,8 +1,8 @@
 body{
 	background-color:#eee;
 	margin-top:120px;
-	margin-left:20%;
-	margin-right:20%;
+	margin-left:5%;
+	margin-right:5%;
 }
 
 #header {
@@ -70,7 +70,7 @@ body{
 	float:left;
 	padding:20px;
 	font-family: 'Handlee', cursive;
-	width:35%;
+	width:45%;
 	text-align:center;
 	background-color:#95a5a6;
 	border-radius:5pt;
@@ -80,18 +80,18 @@ body{
 	float:right;
 	padding:20px;
 	font-family: 'Handlee', cursive;
-	width:35%;
+	width:45%;
 	text-align:center;
 	background-color:#95a5a6;
 	border-radius:5pt;
 }
 
 footer{
-	margin-top:450px;
+	margin-top:325px;
 	position:relative;
 }
 
 .show-md{
     padding-top: 10px;      
-    padding-bottom: 0px;   
+    padding-bottom: 0px;  
 }

@@ -12,10 +12,3 @@ def some_fun(params):
     return params
 
 ```
-
-## image
-
-
-![test image](../test_img.png)
-
-
